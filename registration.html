@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Football Player Registration form</title>
+</head>
+<link rel="stylesheet" href="./css/formstyle.css">
+<body>
+  <h2>Registration form for Footballers</h2>
+    <form action="registrationForm">
+        <label for="surName">Surname: </label>
+      <input type="text" name="surName" id="surName" placeholder="Enter your Surname" required>
+      <br><br>
+
+      <label for="otherName">Other Name: </label>
+      <input type="text" name="otherName" id="otherName" placeholder="Enter your Other Name" required>
+      <br><br>
+      
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+      <br><br>
+      
+      <label for="country">Country: </label>
+      <select name="country" id="country" required>
+        <option value="nigeria">Nigeria</option>
+        <option value="cameroon">Cameroon</option>
+        <option value="ghana">Ghana</option>
+        <option value="togo">Togo</option>
+        <option value="malie">Malie</option>
+      </select>
+      <br><br>
+
+      <label for="jerseyNumber">Jersey Number: </label>
+      <input type="number" name="jerseyNumber" id="jerseyNumber" placeholder="Enter your Jersey Number" required>
+      <br><br>
+
+      <label for="position">Positon: </label>
+      <input type="radio" name="position" id="positon" value="striker">Striker
+      <input type="radio" name="position" id="positon" value="midFielder">Mid fielder
+      <input type="radio" name="position" id="positon" value="defender">Defender
+      <input type="radio" name="position" id="positon" value="goalkeeper">Goalkeeper
+      <br><br>
+
+      <label for="club">Club: </label>
+      <input type="checkbox" name="chelsea" id="club" value="chelsea">Chelsea
+      <input type="checkbox" name="manchestaUnited" id="club" value="manchestaUnited">Manchesta United
+      <input type="checkbox" name="arsenal" id="club" value="arsenal">Arsenal
+      <input type="checkbox" name="manchestaCity" id="club" value="manchestaCity">Manchesta city
+      <br><br>
+
+      <label for="wages">Wages: </label>
+      <input type="number" name="wages" id="wages" placeholder="Enter your Wages">
+      <br><br>
+
+      <label for="passport">Upload your Passport:</label>
+      <input type="file" name="passport" id="passport" accept="image/png, image/jpeg" required>
+      <br><br>
+
+      <input type="submit" name="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid blueviolet;
+    border-radius: 20px;
+    padding-left: 24em;
+}
+form{
+    color: blueviolet;
+    padding-bottom: 4em;
+}
+input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: blueviolet;
+    text-align: justify;
+}
+option{
+    color: blueviolet;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    color: white;
+}
